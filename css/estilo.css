@@ -74,5 +74,118 @@ header{
     background-size: cover;
     background-position: center center ;
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0)), url(../img/secao08-background-capa.jpg);
+    border-top: 5px solid #078C31;
+}
 
+header div#chamada{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    top: 30%;
+    left: auto;
+}
+
+/*SEÇÃO DOMINGO PERFEITO */
+
+section#domingo-perfeito{
+    width: 100%;
+    display: flex;
+    /*flex-flow wé a abreviação de flex-direction e flex-wrap*/
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+div#domingo-perfeito-centro{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+div#pontos-chaves-mestre{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+div.pontos-chaves{
+    width: 25%;
+    text-align: center;
+}
+
+section#domingo-perfeito div.pontos-chaves ion-icon{
+    width: 75%;
+    height: 75%;
+    color: #F03733;
+}
+
+div#domingo-perfeito-esquerda, div#domingo-perfeito-direita{
+    position: relative;
+    width: 15%;
+}
+
+div.folha1{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 150px;
+    height: 150px;
+    background-image: url(../img/secao09-folha1.png);
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+div.camarao{
+    position: absolute;
+    top: 250px;
+    left: 0px;
+    width: 150px;
+    height: 150px;
+    background: url(../img/secao09-camarao.jpg) no-repeat;
+    opacity: 1;
+}
+
+div.folha2{
+    position: absolute;
+    top: 500px;
+    left: 50px;
+    width: 150px;
+    height: 150px;
+    background: url(../img/secao09-folha2.png) no-repeat;
+    opacity: 1;
+}
+
+div.folha3{
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    width: 160px;
+    height: 150px;
+    background: url(../img/secao09-folha3.png) no-repeat;
+    opacity: 1;
+}
+
+div.tomate{
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    width: 160px;
+    height: 150px;
+    background: url(../img/secao09-tomate.png) no-repeat;
+    opacity: 1;
+}
+
+div.queijo{
+    position: absolute;
+    top: 600px;
+    left: 10px;
+    width: 160px;
+    height: 150px;
+    background: url(../img/secao09-queijo.jpg) no-repeat;
+    opacity: 1;
 }

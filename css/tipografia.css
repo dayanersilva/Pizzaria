@@ -32,3 +32,65 @@ p, li, a{
     color: #404040;
 }
 
+p.destaque{
+    font-size: 130%;
+    line-height: 1.8;
+    font-weight: 300;
+    text-align: center;
+    width: 60%;
+}
+
+/*Elementos do Header*/
+
+header div#chamada h1{
+    color: #fff;
+    /* box shadow adiciona sombra em volta do elemento(box) text-shadow adiciona sombra no texto primeiro dado= eixo X(horizontal), segundo dados =  eixo Y (Vertical) , terceiro elemento =  raio e ultimo elemento é a cor */
+    text-shadow: 4px 6px 10px #000;
+    animation-name: HeaderH1-moverDireita;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: backwards;
+}
+
+header div#chamada h4{
+    font-size: 250%;
+    text-shadow: 4px 6px 10px #000;
+    margin-bottom: 55px;
+    animation-name: HeaderH4-moverEsquerda;
+    animation-duration: 1.5s ;
+    animation-delay: 0.5s;
+    animation-timing-function: ease-out ;
+    animation-fill-mode: backwards;
+}
+
+header div#chamada a{
+    font-size: 110%;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 20px 80px;
+    background: linear-gradient(rgba(7,140,49,55) 0%, rgba(6,89,2,35) 50%, rgba(6,89,2,35) 100%);
+    border-radius: 50px;
+    display: inline-block;
+    animation-name: HeaderA-moveCima;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: backwards;
+}
+
+/*SEÇÃO DOMINGO-PERFEITO*/
+div.pontos-chaves h4{
+    color: #404040;
+}
+
+div.pontos-chaves h4:after{
+    content: "";
+    display: block;
+    background-color: #078C31;
+    height: 5px;
+    width: 30%;
+    margin: 20px auto 10px;
+}
+
+
