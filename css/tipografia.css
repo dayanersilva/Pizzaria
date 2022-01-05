@@ -93,4 +93,34 @@ div.pontos-chaves h4:after{
     margin: 20px auto 10px;
 }
 
+/* ---------------------------- */
+/*         SEÇAO - PIZZA        */
+/* ---------------------------- */
+
+section#pizza p.destaque{
+    color: #fff;
+    width: 40%;
+    opacity: 1;
+}
+section#pizza ul li{
+    color: white;
+    list-style: none;
+    line-height: 1.9;
+    font-size: 90%;
+    text-transform: uppercase;
+}   
+
+/* ---------------------------- */
+/*         SEÇAO - depoimantos       */
+/* ---------------------------- */
+
+section#testemunha p.destaque{
+    width: 40%;
+    background-color: rgba(255,255,255,0.7);
+}
+
+
+
+
+
 
