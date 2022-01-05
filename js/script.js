@@ -1,5 +1,5 @@
 $('section#domingo-perfeito').waypoint(
-    function(direcao) {
+    function (direcao) {
         if (direcao == "down") {
             $('div.folha1').addClass('animate__animated animate__fadeInUp')
             $('div.folha3').addClass('animate__animated animate__fadeInUp')
@@ -17,6 +17,22 @@ $('section#domingo-perfeito').waypoint(
             $('div.queijo').removeClass('animate__animated animate__fadeInUp animate__slower')
         }
 
+    }, {
+        offset: '450px;'
+    })
+
+$('div#transicao-testemunha-plano').waypoint(
+    function (direcao) {
+        if (direcao == "down") {
+            $('div#decoracao1').addClass('animate__animated animate__fadeInLeft')
+            $('div#decoracao2').addClass('animate__animated animate__fadeInUp')
+            $('div#decoracao3').addClass('animate__animated animate__fadeInRight')
+        }
+        if (direcao == "up") {
+            $('div#decoracao1').removeClass('animate__animated animate__fadeInLeft')
+            $('div#decoracao2').removeClass('animate__animated animate__fadeInUp')
+            $('div#decoracao3').removeClass('animate__animated animate__fadeInRight')
+        }
     }, {
         offset: '450px;'
     })
