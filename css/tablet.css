@@ -49,3 +49,35 @@ div#testemunha-esquerda , div#testemunha-direita{
 div#transicao-testemunha-plano{
     display: none;
 }
+
+/*PLANOS*/
+div#planos-janela {
+    width: 100%;
+}
+
+div.planos {
+    margin: 80px 5px;
+}
+
+@media screen and (max-width:940px) {
+    div.planos{
+        width: 220px;
+    }
+}
+
+/*FOOTER*/
+footer div#mapa, footer div#info{
+    width: 45%;
+}
+
+footer div#info {
+    margin-right: 35px;
+}
+
+footer div#redes-sociais ion-icon {
+    width: 10%;
+}
+
+footer dic#pizza-rodape-decoracao {
+    display: none;
+}
