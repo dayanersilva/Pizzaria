@@ -36,3 +36,25 @@ $('div#transicao-testemunha-plano').waypoint(
     }, {
         offset: '450px;'
     })
+
+    function exibirMenu(){
+        $('nav ul#esquerda').css('display', 'flex');
+        $('nav ul#direita').css('display', 'flex');
+    }
+
+    function esconderMenu(){
+        $('nav ul#esquerda').css('display', 'none');
+        $('nav ul#direita').css('display', 'none');
+    }
+
+    var controle =  true;
+    
+    $('nav ul#icone-menu-mobile').click(function(){
+        if(controle == true){
+            exibirMenu();
+            controle = false;
+        }else{
+            esconderMenu();
+            controle = true
+        }
+    })
